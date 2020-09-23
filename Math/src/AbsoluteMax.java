@@ -17,10 +17,9 @@ public class AbsoluteMax {
 
     public static int getAbsMax(int[] Arr) {
         int maxNum = Arr[0];
-        for (int j : Arr) {
-            maxNum = Math.abs(j) > Math.abs(maxNum) ? j : maxNum;
-        }
-        return maxNum;
+        for (int j : Arr) maxNum = (Math.abs(j) > Math.abs(maxNum)) ? j : maxNum;
+        final int maxNum1 = maxNum;
+        return maxNum1;
     }
 
 }
