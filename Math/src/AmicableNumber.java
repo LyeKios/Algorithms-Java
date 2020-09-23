@@ -48,9 +48,8 @@ public class AmicableNumber {
      }
 
      /**
-      * @param startValue
-      * @param stopValue
-      * @return
+      * @param startValue start
+      * @param stopValue stop
       */
      static void findAllNumInRange(int startValue, int stopValue){
          StringBuilder res = new StringBuilder();
