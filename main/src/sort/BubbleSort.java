@@ -1,5 +1,7 @@
 package sort;
 
+import java.util.Arrays;
+
 /**
  * Created by ozc on 2018/3/14.
  *
@@ -9,9 +11,8 @@ package sort;
 public class BubbleSort {
 
 
-    public void  bubble() {
-
-        int[] arrays = {2, 5, 1, 3, 4};
+    public static void main(String[] args) {
+       int[] arrays = {2, 5, 1, 3, 4};
 
 
         /*//使用临时变量，让两个数互换
@@ -120,7 +121,9 @@ public class BubbleSort {
         }
 
         System.out.println(num);
-        System.out.println(arrays);
+        System.out.println(Arrays.toString(arrays));
 
     }
 }
+
+
